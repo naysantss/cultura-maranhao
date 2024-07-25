@@ -4,19 +4,20 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import Home from '../components/Home';
-
+import Festas from '../components/Festas';
+import PontosTuristicos from '../components/PontosTuristicos';
 
 import style from './App.module.scss';
 
 
-import Festas from '../components/Festas';
+
 
 function App() {
   return (
     <div className={style.AppStyle}>
    
     
-    <Festas />
+    <PontosTuristicos />
     <Footer />
     </div>
   );
