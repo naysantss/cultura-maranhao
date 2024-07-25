@@ -14,7 +14,7 @@ import Festas from '../components/Festas';
 function App() {
   return (
     <div className={style.AppStyle}>
-    <Header />
+   
     
     <Festas />
     <Footer />

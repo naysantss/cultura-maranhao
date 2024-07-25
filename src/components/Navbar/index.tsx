@@ -1,4 +1,4 @@
-import {Routes, Route} from 'react-router-dom';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import style from './Navbar.module.scss'; 
@@ -60,11 +60,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/festas' element={<PageFestas />}/>
-      </Routes>
-      
+          
       </nav>
       
     

@@ -4,6 +4,9 @@ import styleFestas from './Festas.module.scss';
 import imagemPrincipalFestas from '../../assets/images/imagemPrincipalFestas.svg'
 
 import GalleryBumbaBoi from "../Gallery/BumbaMeuBoi";
+import GalleryTamborCrioula from "../Gallery/TamborCrioula";
+import GalleryFestaDivino from "../Gallery/FestaDivino";
+import GalleryReggae from "../Gallery/Reggae";
 
 export default function Festas() {
    return (
@@ -85,7 +88,9 @@ export default function Festas() {
                </p>
             </div>
             <div className={styleFestas.pageImageRight}>
-               <img src={imagemPrincipalFestas} alt="" />
+               <div className={styleFestas.pageImageRightImage}>
+                  <GalleryTamborCrioula />
+               </div>
                <div className={styleFestas.pageImageRightLegend}>
                   <h3>
                      Para conhecer mais sobre:
@@ -105,7 +110,7 @@ export default function Festas() {
                   A <strong>Festa do Divino Espírito Santo</strong>:uma das celebrações religiosas mais antigas e significativas do estado do Maranhão.
                </h1>
                <div className={styleFestas.pageImageLeftImage}>
-                  <img src={imagemPrincipalFestas} alt="" />
+                  <GalleryFestaDivino />
                </div>
 
 
@@ -125,9 +130,9 @@ export default function Festas() {
          </div>
 
          <div className={styleFestas.page}>
-            <div className={styleFestas.pageTextLeft}>
+            <div className={styleFestas.pageTextLeft} >
 
-               <h1 className={styleFestas.pageTextLeftTitle}>
+               <h1 className={styleFestas.pageTextLeftTitle} >
                   O <strong>Reggae</strong>: um ritmo tão popular que São Luís se tornou a capital nacional do reggae.
                </h1>
                <p className={styleFestas.pageTextLeftLegend}>
@@ -138,7 +143,9 @@ export default function Festas() {
                </p>
             </div>
             <div className={styleFestas.pageImageRight}>
-               <img src={imagemPrincipalFestas} alt="" />
+               <div className={styleFestas.pageImageRightImage}>
+                  <GalleryReggae />
+               </div>
                <div className={styleFestas.pageImageRightLegend}>
                   <h3>
                      Para conhecer mais sobre:

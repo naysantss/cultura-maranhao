@@ -1,3 +1,355 @@
+@media screen and (max-width: 1024px) {
+   .section {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      gap: 1rem;
+
+      width: 100%;
+      min-height: 100vh;
+   }
+
+   .page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+   
+      width: 100%;
+      height: auto;
+   
+      gap: 1rem;
+   }
+
+   .pageTextLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+   
+      width: 100%;
+   
+      gap: 1rem;
+   }
+
+   .pageTextLeftAlert {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+   
+      width: 100%;
+   
+      gap: 0.5rem;
+   }
+   
+   .pageTextLeftAlert > h1 {
+      font-family: "Poppins", sans-serif;
+      color: var(--cor-texto-alerta);
+      font-size: 2rem;
+      font-weight: 900;
+      
+      text-align: center;
+   
+      width: 100%;
+   
+   }
+   
+   .pageTextLeftAlert > p {
+      font-family: "Poppins", sans-serif;
+      color: var(--cor-texto-alerta);
+      font-size: 0.8rem;
+      font-weight: 900;
+
+      text-align: center;
+   
+      width: 100%;
+   
+   }
+
+   .pageTextLeftTitle {
+      font-family: "Volkhov", serif;
+      color: var(--cor-texto-principal);
+      font-size: 1rem;
+      font-weight: 700;
+
+      text-align: justify;
+   
+      width: 100%;
+   
+   }
+   
+   .pageTextLeftTitle > strong {
+      
+      color: var(--cor-texto-alerta);
+      
+   
+   }
+
+   .pageTextLeftLegend {
+      font-family: "Poppins", sans-serif;
+      color: var(--cor-texto);
+      font-size: 0.8rem;
+      font-weight: 400;
+   
+      width: 100%;
+   
+      text-align: justify;
+   
+   }
+
+   .pageImageRight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+   
+      width: 90%;
+   }
+   
+   .pageImageRightImage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      width: 100%;
+   }
+   
+   .pageImageRight > img {
+      
+      width: 90%;
+   }
+
+   
+.pageImageRightLegend {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+
+   width: 100%;
+}
+
+.pageImageRightLegend > h3 {
+   font-family: "Volkhov", serif;
+   color: var(--cor-texto-principal);
+   font-size: 1rem;
+   font-weight: 700;
+
+   width: 100%;
+
+   text-align: center;
+}
+
+.pageImageRightLegend > p {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+   font-family: "Poppins", sans-serif;
+   color: var(--cor-texto);
+   font-size: 0.8rem;
+   font-weight: 400;
+
+   width: auto;
+
+   text-align: center;
+}
+
+
+.pageImageRightLegend > p > a{
+   font-family: "Poppins", sans-serif;
+   color: var(--cor-texto);
+   font-size: 0.8rem;
+   font-weight: 400;
+
+   padding: 0.3rem;
+
+   width: 100%;
+
+   text-align: center;
+
+   border: 1px solid var(--cor-texto-alerta);
+   border-radius: 1rem;
+}
+
+.pageImageRightLegend > p > a:hover {
+   
+   color: var(--cor-branco);
+   background-color: var(--cor-texto-alerta);
+   font-size: 1.5rem;
+   font-weight: 400;
+
+   padding: 0.3rem;
+
+   width: 100%;
+
+   text-align: center;
+
+  
+}
+
+
+.pageTextRight {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+}
+
+.pageTextRightLegend {
+   font-family: "Poppins", sans-serif;
+   color: var(--cor-texto);
+   font-size: 0.8rem;
+   font-weight: 400;
+
+   text-align: justify;
+
+   width: 100%;
+
+}
+
+.pageTextRightLegendName {
+   color: var(--cor-texto-alerta);  
+   font-weight: 600;
+
+   width: 100%;
+
+}
+
+.pageTextRightSubtitle {
+   font-family: "Volkhov", serif;
+   color: var(--cor-texto-principal);
+   font-size: 0.8rem;
+   font-weight: 700;
+
+   width: 100%;
+
+   text-align: center;
+}
+
+.pageImageLeft {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+
+   gap: 2rem;
+}
+
+.pageImageLeftImage {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   width: 80%;
+}
+
+.pageImageLeftImage > img {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   width: 50%;
+
+   gap: 2rem;
+}
+
+.pageImageLeftTitle {
+   font-family: "Volkhov", serif;
+   color: var(--cor-texto-principal);
+   font-size: 1rem;
+   font-weight: 700;
+
+   text-align: justify;
+
+   width: 100%;
+}
+
+.pageImageLeftTitle > strong {
+   color: var(--cor-texto-alerta);
+}
+
+.pageImageLeftSubtitle {
+   font-family: "Volkhov", serif;
+   color: var(--cor-texto-principal);
+   font-size: 0.8rem;
+   font-weight: 700;
+
+   width: 100%;
+
+   text-align: center;
+}
+
+.pageImageLeftLegend {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   font-family: "Poppins", sans-serif;
+   color: var(--cor-texto);
+   font-size: 1rem;
+   font-weight: 400;
+
+   width: auto;
+
+   text-align: center;
+}
+
+.pageImageLeftLegend > a {
+   font-family: "Poppins", sans-serif;
+   color: var(--cor-texto);
+   font-size: 1rem;
+   font-weight: 400;
+
+   padding: 0.3rem;
+
+   width: 100%;
+
+   text-align: center;
+
+   border: 1px solid var(--cor-texto-alerta);
+   border-radius: 1rem;
+}
+
+.pageImageLeftLegend > a:hover {
+   
+   color: var(--cor-branco);
+   background-color: var(--cor-texto-alerta);
+   font-size: 1.5rem;
+   font-weight: 400;
+
+   padding: 0.3rem;
+
+   width: 100%;
+
+   text-align: center;
+
+   border: 1px solid var(--cor-texto-alerta);
+   border-radius: 1rem;
+}
+
+
+}
+
+@media screen and (min-width: 1025px) {
+   
+
+
 .section {
    display: flex;
    flex-direction: column;
@@ -12,7 +364,7 @@
    width: 100%;
    height: auto;
 
-   border: 2px solid black;
+
 }
 
 .page {
@@ -25,7 +377,7 @@
    width: 100%;
    height: auto;
 
-   border: 2px solid red;
+   
 }
 
 .pageTextLeft {
@@ -110,6 +462,15 @@
    width: 47.5%;
 }
 
+.pageImageRightImage {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+   width: 80%;
+}
+
 .pageImageRight > img {
    
    width: 60%;
@@ -128,7 +489,7 @@
 .pageImageRightLegend > h3 {
    font-family: "Volkhov", serif;
    color: var(--cor-texto-principal);
-   font-size: 2rem;
+   font-size: 1rem;
    font-weight: 700;
 
    width: 100%;
@@ -156,7 +517,7 @@
 .pageImageRightLegend > p > a{
    font-family: "Poppins", sans-serif;
    color: var(--cor-texto);
-   font-size: 1.5rem;
+   font-size: 1rem;
    font-weight: 400;
 
    padding: 0.3rem;
@@ -330,3 +691,7 @@
    border: 1px solid var(--cor-texto-alerta);
    border-radius: 1rem;
 }
+
+   
+}
+
