@@ -1,0 +1,66 @@
+.main {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+   height: auto;
+   
+}
+
+.mainText {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1em;
+
+   width: 50%;
+  
+}
+
+.mainTextTitle {
+   font-family: "Volkhov", serif;
+   font-size: 2.5em;
+   font-weight: 900;
+   color: #181E4B;
+   text-align: left;
+
+   width: 100%;
+}
+
+.mainTextAlert {
+   font-family: "Poppins", sans-serif;
+   font-size: 1.5em;
+   font-weight: 700;
+   color: #A7321C;
+   text-align: left;
+
+   width: 100%;
+}
+
+.mainTextLegend {
+   font-family: "Poppins", sans-serif;
+   font-size: 1em;
+   font-weight: 400;
+   color: #5E6282;
+   text-align: left;
+
+   width: 100%;
+}
+
+.mainImage {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   width: 50%;
+   height: auto;
+}
+
+.mainImagePicture {
+   max-width: 100%;
+   height: 60vh;
+}
