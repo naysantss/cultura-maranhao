@@ -39,7 +39,7 @@ Este é um projeto de site interativo que visa explorar e divulgar a rica cultur
 Este projeto é desenvolvido por uma equipe dedicada de três desenvolvedores:
 
 - **[Antônio Oliveira](mailto:anton_oliveira@outlook.com)**
-- **[Nome do Desenvolvedor 2](mailto:email2@dominio.com)**
+- **[Nayara Cristina](nay.sants221@gmail.com)**
 - **[Rycherd Dheurymy](mailto:dheurymy@outlook.com)**
 
 ## Como Contribuir
