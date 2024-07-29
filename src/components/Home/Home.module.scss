@@ -6,6 +6,8 @@
 
    width: 100%;
    height: auto;
+
+   padding-top: 1rem;
    
 }
 
@@ -63,4 +65,42 @@
 .mainImagePicture {
    max-width: 100%;
    height: 60vh;
+}
+
+@media screen and (max-width: 1024px) {
+   .main {
+      
+      flex-direction: column;      
+   }
+
+   .mainText {
+      width: 100%;     
+   }
+
+   .mainTextTitle {
+      
+      font-size: 2rem;
+      
+      text-align: center;
+   
+      width: 100%;
+   }
+
+   .mainTextAlert {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #A7321C;
+      text-align: center;
+   
+      width: 100%;
+   }
+
+   .mainImage {
+      
+      width: 100%;
+      
+   }
+   
+   
 }
