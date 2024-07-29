@@ -71,7 +71,8 @@ button {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-	--cor-fundo: #F1DEBD; 
+	--cor-fundo: #F1DEBD;
+	--cor-nav: #e4cba1; 
 	--cor-texto-alerta: #A7321C; 
 	--cor-texto-principal: #181E4B; 
 	--cor-texto: #5E6282; 

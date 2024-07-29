@@ -1,0 +1,41 @@
+.gallery {
+   width: 100%;
+   
+   height: 100%;
+   
+
+   margin: 0 auto;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   border: 1px solid var(--cor-texto-alerta);
+   border-radius: 0.5rem;
+}
+
+.carrossel {
+   cursor: grab;
+   overflow: hidden;
+}
+
+.interno { 
+   display: flex;
+}
+
+.imagem {
+   min-width: 28rem;
+   min-height: 24rem;
+   padding: 1rem;
+}
+
+.imagem > img {
+   width: 100%;
+   height: 100%;
+
+   
+
+   border-radius: 0.5rem;
+
+   pointer-events: none;
+}
